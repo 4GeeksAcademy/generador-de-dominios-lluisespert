@@ -27,6 +27,7 @@ for (let i = 0; i < array1.length; i++) {
   for (let b = 0; b < array2.length; b++) {
     for (let c = 0; c < array3.length; c++) {
       for (let d = 0; d < array4.length; d++) {
+        for (let e = 0; e < array5.length; e++) {
           document.write(
             array1[i] +
               array2[b] +

@@ -1,40 +1,39 @@
 /* eslint-disable */
 import "bootstrap";
 import "./style.css";
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let array1 = ["one", "two", "three", "four", "five"];
-let array2 = [
+let numero = ["one", "two", "three", "four", "five"];
+let frutas = [
   "boniato",
   "chupinga",
   "chupacabras",
   "tuercebotas",
   "abrazafarolas"
 ];
-let array3 = [
+let personajes = [
   "chupacharcos",
   "cansaliebres",
   "mastuerzo",
   "pescabicho",
   "fifaproplayer"
 ];
-let array4 = ["luisete", "bushi", "loperilla", "rick", "moure"];
-let array5 = ["es", "com", "cat", "eu", "net"];
+let companyeros = ["luisete", "bushi", "loperilla", "rick", "moure"];
+let dominio = ["es", "com", "cat", "eu", "net"];
 
-for (let i = 0; i < array1.length; i++) {
-  for (let b = 0; b < array2.length; b++) {
-    for (let c = 0; c < array3.length; c++) {
-      for (let d = 0; d < array4.length; d++) {
-        for (let e = 0; e < array5.length; e++) {
+for (let i = 0; i < numero.length; i++) {
+  for (let b = 0; b < frutas.length; b++) {
+    for (let c = 0; c < personajes.length; c++) {
+      for (let d = 0; d < companyeros.length; d++) {
+        for (let e = 0; e < dominio.length; e++) {
           document.write(
-            array1[i] +
-              array2[b] +
-              array3[c] +
-              array4[d] +
+            numero[i] +
+              frutas[b] +
+              personajes[c] +
+              companyeros[d] +
               "." +
-              array5[e] +
+              dominio[e] +
               "<br>"
           );
         }
